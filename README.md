@@ -33,6 +33,7 @@ The project uses the following Python libraries:
 - textblob
 - geopandas
 - matplotlib
+- for the variable world_map_file (you would need to download the world map from https://www.naturalearthdata.com/downloads/110m-cultural-vectors/)
   
 ## Data
 The data for this project consists of two main sources:
@@ -64,4 +65,4 @@ The output consists of:
 - A classified dataset that labels the documents based on crime type (Economic/Trade-related or Non-money-related).
 - A sentiment analysis score for each document (Positive, Neutral, or Negative).
 - Threat scores based on sentiment and the countries mentioned in the document.
-- The final results are saved in Excel files and can be visualized to analyze patterns in crime categories and sentiment.
+- The final results are saved in Excel files and can be visualized to analyze patterns in crime categories and sentiment. (Note: You need to update the file paths in the code to match your local environment to export the files)
